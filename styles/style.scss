@@ -153,3 +153,22 @@ body {
   align-self: center;
 }
 
+//----------------- buscador
+.barra-buscador{
+	width: 90%;
+	margin: 3%;
+	border-radius: 20px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 2%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.barra-buscador:hover{
+	border: 1px solid #586AE0;
+}
+
+.lupa-buscador{
+
+}
