@@ -184,6 +184,7 @@ body {
 }
 
 
+
 //----------------categorias 
 
 
@@ -218,7 +219,40 @@ body {
 	div:hover{
 		width: 70%;
 		border: #f3a998 1px solid;
-		
+		background-color: rgba(6, 6, 6, 0.41);
+		opacity: 70%;
 	}
 	
+}
+
+//-------------------------- Productjos 
+.productos{
+	margin-top: 15%;
+}
+.producto-container{
+	background-color: #fff;
+	border-radius: 7%;
+	padding: 8%;
+	margin: 8%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	.producto-titulo{
+		font-weight: bold;
+	}
+	.producto-imagen{
+		width: 100%;
+	}
+	.comprar{
+		background-color: #f3a998;
+		border: 0;
+		width: 90%;
+		height: 30px;
+		border-radius: 30px;
+	}
+	.comprar:hover{
+		background-color: #ffc5b8;
+	}
 }
