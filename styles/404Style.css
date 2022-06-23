@@ -1,0 +1,34 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fef2d7;
+    background-image: url("../image/background-img.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  .body-404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    width: 30vw;
+  }
+  h1{
+    font-size: medium;
+  }
+  p{
+    font-size: small;
+    text-align: center;
+  }
+
+  @media (min-width: 1024px){
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+  }
