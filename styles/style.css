@@ -186,4 +186,16 @@ body {
   .producto-container .comprar:hover {
     background-color: #ffc5b8; }
 
+.footer {
+  margin-top: 15%; }
+  .footer .contacto {
+    display: flex;
+    flex-direction: column; }
+    .footer .contacto h4 {
+      text-align: center; }
+    .footer .contacto .iconos {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10%; }
+
 /*# sourceMappingURL=style.css.map */

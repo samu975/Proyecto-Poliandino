@@ -256,3 +256,21 @@ body {
 		background-color: #ffc5b8;
 	}
 }
+
+//-----------footer 
+
+.footer{
+	margin-top: 15%;
+	.contacto{
+		display: flex;
+		flex-direction: column;
+		h4{
+			text-align: center;
+		}
+		.iconos{
+			display: flex;
+			justify-content: space-around;
+			margin-bottom: 10%;
+		}
+	}
+}
