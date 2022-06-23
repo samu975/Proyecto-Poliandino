@@ -5,7 +5,6 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #fef2d7;
   background-image: url("./image/background-img.png");
   background-repeat: repeat-y;
   background-size: cover;
@@ -81,7 +80,7 @@ html {
   #menu.overlay {
     visibility: visible;
     opacity: 1;
-    padding-top: 15%;
+    padding-top: 100px;
     background: rgba(0, 0, 0, 0.5); }
   #menu ul {
     padding: 0; }
@@ -109,94 +108,7 @@ body {
   align-self: center; }
 
 .barra-buscador {
-  width: 90%;
-  margin: 3%;
-  border-radius: 20px;
-  background-color: white;
-  border: 1px solid white;
-  padding: 1%;
-  display: flex;
-  justify-content: flex-end; }
+  width: 100%;
+  background-color: white; }
 
-.barra-buscador:hover {
-  border: 1px solid #f3a998; }
-
-.circulo {
-  width: 30px;
-  height: 30px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #f3a998;
-  margin-right: 5px; }
-
-.lupa-buscador {
-  margin-left: 6px;
-  margin-top: 5px; }
-
-.categorias {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  margin-top: 10%;
-  row-gap: 10%;
-  margin-bottom: 8%; }
-  .categorias div {
-    width: 60%;
-    justify-self: center;
-    display: grid;
-    padding: 5% 3% 0 3%;
-    background-color: white;
-    border-radius: 10px; }
-    .categorias div img {
-      width: 75%;
-      height: 65px;
-      justify-self: center;
-      align-self: center; }
-    .categorias div h4 {
-      text-align: center;
-      margin: 7%; }
-  .categorias div:hover {
-    width: 70%;
-    border: #f3a998 1px solid;
-    background-color: rgba(6, 6, 6, 0.41);
-    opacity: 70%; }
-
-.productos {
-  margin-top: 15%; }
-
-.producto-container {
-  background-color: #fff;
-  border-radius: 7%;
-  padding: 8%;
-  margin: 8%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
-  .producto-container .producto-titulo {
-    font-weight: bold; }
-  .producto-container .producto-imagen {
-    width: 100%; }
-  .producto-container .comprar {
-    background-color: #f3a998;
-    border: 0;
-    width: 90%;
-    height: 30px;
-    border-radius: 30px; }
-  .producto-container .comprar:hover {
-    background-color: #ffc5b8; }
-
-.footer {
-  margin-top: 15%; }
-  .footer .contacto {
-    display: flex;
-    flex-direction: column; }
-    .footer .contacto h4 {
-      text-align: center; }
-    .footer .contacto .iconos {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 10%; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=output.map */
