@@ -7,7 +7,7 @@ html{
   margin: 0;
   padding: 0;
   background-color: #fef2d7;
-  background-image: url("./image/background-img.png");
+  background-image: url("../image/background-img.png");
   background-repeat: repeat-y;
   background-size: cover;
   font-family: 'Big Shoulders Display', cursive;
@@ -133,6 +133,9 @@ html{
 		text-decoration: none;
 	}
 }
+#menu-oculto{
+	display: none;
+}
 
 body {
 	margin: 0;
@@ -163,7 +166,17 @@ body {
 	border: 1px solid white;
 	padding: 1%;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	#buscador-input{
+		border: #fff 1px solid;
+		border-radius: 30px;
+		width: 100%;
+		height: 3vh;
+		margin: 10px;
+	}
+	#buscador-input:focus{
+		outline: none;
+	}
 }
 
 .barra-buscador:hover{
@@ -274,4 +287,72 @@ body {
 			margin-bottom: 10%;
 		}
 	}
+}
+
+//--------------------- media queries 
+
+//----tablet-portrait
+
+@media (min-width: 1024px) { 
+
+	.header{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		#burger-menu{
+			display: none;
+		}
+		
+		.logo-vito{
+			grid-column: 1/2;
+			grid-row: 1/1;
+			width: 30%;
+		  }
+		  #menu-oculto{
+			display: block;
+			grid-column: 2/2;
+			grid-row: 1/1;
+			ul{
+				padding: 0;
+				margin: 0;
+				display: flex;
+				justify-content: space-between;
+				li{
+					list-style: none;
+					margin: 0 15px;
+					a{
+						color: black;
+						text-decoration: none;
+						font-size: 30px;
+					}
+					a:hover{
+						text-decoration: underline;
+					}
+					a:focus{
+						text-decoration: underline;
+					}
+				}
+			}
+			
+		}
+		  .carrito-icon{
+			grid-column: 2/2;
+			width: 5%;
+			grid-row: 1/1;
+			justify-self: flex-end;
+			margin-right: 20%;
+		  }
+	  }
+	  .barra-buscador{
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 100px;
+		cursor: pointer;
+		#buscador-input{
+			font-size: 20px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+
 }
