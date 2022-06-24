@@ -210,7 +210,7 @@ body {
       justify-content: space-around;
       margin-bottom: 10%; }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   .header {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
@@ -236,17 +236,18 @@ body {
           .header #menu-oculto ul li a {
             color: black;
             text-decoration: none;
-            font-size: 30px; }
+            font-size: 1.7rem; }
           .header #menu-oculto ul li a:hover {
             text-decoration: underline; }
           .header #menu-oculto ul li a:focus {
             text-decoration: underline; }
     .header .carrito-icon {
       grid-column: 2/2;
-      width: 5%;
+      min-width: 3%;
+      max-width: 8%;
       grid-row: 1/1;
       justify-self: flex-end;
-      margin-right: 20%; }
+      margin-right: 15%; }
 
   .barra-buscador {
     width: 50%;
@@ -295,7 +296,7 @@ body {
       font-size: 25px; }
     .producto-container p {
       margin: 30px 0px;
-      font-size: 20px;
+      font-size: 1.3rem;
       line-height: 25px; }
     .producto-container .comprar {
       font-size: 15px;
